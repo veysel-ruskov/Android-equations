@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/euA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете A"
+        android:inputType="numberSigned|number|numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/euB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете B"
+        android:inputType="numberSigned|numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/euC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете C"
+        android:inputType="numberSigned|numberDecimal"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Актуализирай"
+        android:id="@+id/btnUpdate"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изтрий"
+        android:id="@+id/btnDelete"></Button>
+
+
+</LinearLayout>

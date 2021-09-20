@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете A"
+        android:inputType="numberSigned|text|numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/editB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете B"
+        android:inputType="numberSigned|text|numberDecimal"></EditText>
+
+    <EditText
+        android:id="@+id/editC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Въведете C"
+        android:inputType="numberSigned|text|numberDecimal"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пресметни"
+        android:id="@+id/btnInsert"></Button>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="История:"
+        android:textSize="24sp"></TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleList"></ListView>
+
+</LinearLayout>
